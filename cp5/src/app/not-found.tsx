@@ -12,8 +12,8 @@ export default async function NotFound() {
         <Image
           src={imagem.img} 
           alt="Ilustração de erro"
-          width={500} 
-          height={300}
+          width={600} 
+          height={400}
           />
       </div>
     </div>
