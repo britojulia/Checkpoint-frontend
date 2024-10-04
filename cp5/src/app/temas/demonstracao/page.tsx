@@ -1,33 +1,33 @@
-import Layout from '../layout'; 
+import Layout from '../layout';
 
 export default function demonstracao() {
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-900 p-6">
-        <h1 className="text-4xl font-bold mb-8">Teoria de Catástrofes Cósmicas</h1>
+        <h1 className="text-4xl font-bold mb-8">Ideias de Mundos em Colisão</h1>
         <p className="text-lg max-w-3xl text-center">
-          A Teoria de Catástrofes Cósmicas de Velikovsky sugere que eventos astronômicos de grandes proporções influenciaram a Terra em tempos históricos. Sua teoria propõe que encontros próximos entre a Terra e planetas como Vênus e Marte causaram cataclismos globais, afetando profundamente a história humana e a geologia do planeta.
+          Immanuel Velikovsky foi uma das figuras mais controversas do século XX no campo da ciência. Embora treinado como médico e psicanalista, ele se tornou famoso por suas teorias revolucionárias sobre catástrofes cósmicas que moldaram a história da Terra e da humanidade. Seu livro mais famoso, <em>Worlds in Collision</em> (1950), propôs que eventos astronômicos catastróficos, como colisões e interações entre planetas, causaram profundas mudanças na geologia, no clima e até nas culturas humanas.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          Velikovsky acreditava que esses eventos eram responsáveis por fenômenos como a interrupção da rotação da Terra, terremotos massivos, tsunamis e mudanças climáticas radicais.
+          Velikovsky acreditava que, em tempos antigos, planetas como Vênus e Marte não seguiam as órbitas estáveis que conhecemos hoje. Ele propôs que Vênus, antes de se tornar o planeta que vemos no céu noturno, era um cometa que foi expelido de Júpiter. Em sua trajetória instável pelo Sistema Solar, Vênus teria passado perigosamente perto da Terra, causando uma série de desastres globais.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          Ele se baseou em textos antigos, mitos e lendas para sustentar suas hipóteses. Para Velikovsky, esses relatos culturais e religiosos, encontrados em civilizações de todo o mundo, eram registros de eventos astronômicos reais que impactaram a Terra.
+          Esses eventos, de acordo com Velikovsky, foram documentados por civilizações antigas em seus mitos, textos religiosos e lendas. Ele acreditava que muitas histórias, como as pragas do Egito e a travessia do Mar Vermelho descritas na Bíblia, eram, na verdade, registros de catástrofes causadas por interações gravitacionais entre a Terra e Vênus.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          Um dos exemplos mais notáveis é a ideia de que o planeta Vênus foi ejetado de Júpiter e, em sua trajetória inicial, passou perto da Terra, causando uma série de catástrofes naturais. Esse evento, segundo ele, foi registrado em textos como a Bíblia, onde fenômenos como o "sol parado" durante a batalha de Josué seriam descrições de uma interrupção temporária da rotação da Terra.
+          Além de Vênus, Velikovsky também mencionou Marte em suas teorias, acreditando que ele também passou por órbitas erráticas, causando guerras e desastres que inspiraram mitos de batalhas entre deuses, como Ares e Marte, deuses da guerra. Em sua visão, os eventos astronômicos não apenas afetaram a física do planeta, mas também moldaram as crenças e culturas das civilizações antigas.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          As teorias de Velikovsky foram fortemente criticadas pela comunidade científica por violar as leis da física, especialmente a mecânica celeste. No entanto, sua abordagem inovadora ao integrar história, mitologia e ciência provocou um grande debate e mantém um nicho de defensores até hoje.
+          Apesar de suas teorias serem rejeitadas por grande parte da comunidade científica, Velikovsky continua a inspirar debates até hoje. Ele questionou a separação entre ciência e mitologia, propondo que ambos os campos poderiam oferecer insights sobre a história do nosso planeta.
         </p>
         <div className="mt-8">
           <img
-            src="https://example.com/teoria1.jpg" 
-            alt="Ilustração da teoria de Velikovsky"
+            src="https://example.com/velikovsky-ideas.jpg" 
+            alt="Ilustração de Velikovsky e suas ideias sobre catástrofes cósmicas"
             className="rounded-lg"
           />
         </div>
       </div>
     </Layout>
-  );
+  );
 }
