@@ -7,6 +7,7 @@ export default async function NotFound() {
   const imagem:ImagemSelecionada = imagens.find((img:ImagemSelecionada) => img.id == 5)
   
   return (
+    <div className="bg-sky-600 flex flex-col items-center justify-center min-h-screen text-gray-100 p-6">
       <div>
         <Image
           src={imagem.img} 
@@ -15,5 +16,6 @@ export default async function NotFound() {
           height={300}
           />
       </div>
+    </div>
     )
   }

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import Cabecalho from "./components/Cabecalho/cabecalho";
+import Cabecalho from "../components/Cabecalho/cabecalho";
+import './globals.css'
+import Rodape from "@/components/Rodape/rodape";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +18,7 @@ export default function RootLayout({
       <body>
         <Cabecalho/>
         {children}
+        <Rodape/>
       </body>
     </html>
   );
