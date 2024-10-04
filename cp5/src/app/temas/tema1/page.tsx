@@ -1,13 +1,11 @@
 import Layout from '../layout'; 
 import Image from 'next/image';
 import { ImagemSelecionada } from '@/app/types';
-import imagem1 from '@/app/imagens/imagem1.jpeg'
 
 export default async function Tema1() {
   const response = await fetch(`http://localhost:3000/api`);
   const imagens = await response.json();
   const imagem:ImagemSelecionada = imagens.find((img:ImagemSelecionada) => img.id == 1)
-  console.log(imagem)
   
   return (
     <Layout>
@@ -27,7 +25,7 @@ export default async function Tema1() {
         </p>
         <div className="mt-8">
         <Image
-        src={imagem1} 
+        src={imagem.img} 
         alt="Ilustração de erro"
         width={500} 
         height={300}

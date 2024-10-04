@@ -1,5 +1,13 @@
+import Image from 'next/image';
+import { ImagemSelecionada } from '@/app/types';
 
-export default function demonstracao() {
+
+
+export default async function demonstracao() {
+  const response = await fetch(`http://localhost:3000/api`);
+  const imagens = await response.json();
+  const imagem:ImagemSelecionada = imagens.find((img:ImagemSelecionada) => img.id == 4)
+  
   return (
     <div>
       <h1>A teoria de Vênus como o planeta que nasceu do caos</h1>
@@ -20,6 +28,14 @@ A separação do Mar Vermelho: Velikovsky propôs que a divisão das águas, con
       <p>Velikovsky reinterpreta muitos eventos considerados milagrosos em textos sagrados, como a Bíblia, sugerindo que esses episódios eram, na verdade, respostas naturais a interações cósmicas. Essa visão provocou debates acalorados entre historiadores, teólogos e cientistas, já que desafiava a compreensão tradicional da história e da ciência.</p>
       <h2>Impacto e controvérsia</h2>
       <p>A teoria de Velikovsky gerou controvérsias significativas na comunidade científica, com muitos rejeitando suas afirmações por falta de evidências empíricas e rigor científico. No entanto, sua obra despertou interesse em diversas áreas, incluindo psicologia, história e filosofia, incentivando debates sobre a relação entre ciência, religião e a interpretação da história.</p>
+      <div className="mt-8">
+        <Image
+        src={imagem.img} 
+        alt="Ilustração de erro"
+        width={500} 
+        height={300}
+        />
+        </div>
     </div>
   );
 }
