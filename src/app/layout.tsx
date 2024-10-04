@@ -16,7 +16,6 @@ export default function RootLayout({
       <body>
         <Cabecalho/>
         {children}
-        
       </body>
     </html>
   );
