@@ -4,26 +4,23 @@ export default function demonstracao() {
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-900 p-6">
-        <h1 className="text-4xl font-bold mb-8">Ideias de Mundos em Colisão</h1>
+        <h1 className="text-4xl font-bold mb-8">A Reinterpretação da História Humana e da Geologia</h1>
         <p className="text-lg max-w-3xl text-center">
-          Immanuel Velikovsky foi uma das figuras mais controversas do século XX no campo da ciência. Embora treinado como médico e psicanalista, ele se tornou famoso por suas teorias revolucionárias sobre catástrofes cósmicas que moldaram a história da Terra e da humanidade. Seu livro mais famoso, <em>Worlds in Collision</em> (1950), propôs que eventos astronômicos catastróficos, como colisões e interações entre planetas, causaram profundas mudanças na geologia, no clima e até nas culturas humanas.
+          Immanuel Velikovsky não apenas propôs que eventos cósmicos catastróficos moldaram a história da humanidade, mas também sugeriu que esses mesmos eventos alteraram drasticamente a geologia da Terra. Ele acreditava que grandes mudanças geológicas, como terremotos massivos, erupções vulcânicas e deslocamentos continentais, ocorreram de maneira súbita devido às interações planetárias.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          Velikovsky acreditava que, em tempos antigos, planetas como Vênus e Marte não seguiam as órbitas estáveis que conhecemos hoje. Ele propôs que Vênus, antes de se tornar o planeta que vemos no céu noturno, era um cometa que foi expelido de Júpiter. Em sua trajetória instável pelo Sistema Solar, Vênus teria passado perigosamente perto da Terra, causando uma série de desastres globais.
+          Para Velikovsky, as teorias geológicas tradicionais, como a tectônica de placas e a lenta erosão de montanhas ao longo de milhões de anos, não explicavam adequadamente certas formações geológicas e depósitos fósseis encontrados ao redor do mundo. Ele argumentou que muitas dessas formações foram o resultado de eventos cataclísmicos globais, como a aproximação de Vênus ou Marte, que causaram forças gravitacionais extremas, impactando a crosta terrestre.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          Esses eventos, de acordo com Velikovsky, foram documentados por civilizações antigas em seus mitos, textos religiosos e lendas. Ele acreditava que muitas histórias, como as pragas do Egito e a travessia do Mar Vermelho descritas na Bíblia, eram, na verdade, registros de catástrofes causadas por interações gravitacionais entre a Terra e Vênus.
+          Em vez de longos períodos de evolução gradual, Velikovsky defendia uma "geologia catastrofista", onde mudanças repentinas e destrutivas teriam remodelado a superfície do planeta em curtos períodos de tempo. Ele também sugeriu que as extinções em massa, como a dos dinossauros, poderiam estar relacionadas a esses eventos cósmicos e não apenas a impactos de asteroides ou erupções vulcânicas.
         </p>
         <p className="mt-4 text-lg max-w-3xl text-center">
-          Além de Vênus, Velikovsky também mencionou Marte em suas teorias, acreditando que ele também passou por órbitas erráticas, causando guerras e desastres que inspiraram mitos de batalhas entre deuses, como Ares e Marte, deuses da guerra. Em sua visão, os eventos astronômicos não apenas afetaram a física do planeta, mas também moldaram as crenças e culturas das civilizações antigas.
-        </p>
-        <p className="mt-4 text-lg max-w-3xl text-center">
-          Apesar de suas teorias serem rejeitadas por grande parte da comunidade científica, Velikovsky continua a inspirar debates até hoje. Ele questionou a separação entre ciência e mitologia, propondo que ambos os campos poderiam oferecer insights sobre a história do nosso planeta.
+          Essa visão desafiava profundamente o entendimento científico da época, e mesmo hoje em dia, continua a suscitar debates entre geólogos e historiadores que discutem a possibilidade de eventos cataclísmicos terem desempenhado um papel maior na evolução da Terra do que se pensava anteriormente.
         </p>
         <div className="mt-8">
           <img
-            src="https://example.com/velikovsky-ideas.jpg" 
-            alt="Ilustração de Velikovsky e suas ideias sobre catástrofes cósmicas"
+            src="https://example.com/geologia-catastrofista.jpg" 
+            alt="Ilustração sobre as teorias geológicas de Velikovsky"
             className="rounded-lg"
           />
         </div>
