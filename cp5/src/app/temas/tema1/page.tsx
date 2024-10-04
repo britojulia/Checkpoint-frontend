@@ -1,6 +1,14 @@
 import Layout from '../layout'; 
+import Image from 'next/image';
+import { ImagemSelecionada } from '@/app/types';
+import imagem1 from '@/app/imagens/imagem1.jpeg'
 
-export default function Tema1() {
+export default async function Tema1() {
+  const response = await fetch(`http://localhost:3000/api`);
+  const imagens = await response.json();
+  const imagem:ImagemSelecionada = imagens.find((img:ImagemSelecionada) => img.id == 1)
+  console.log(imagem)
+  
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-900 p-6">
@@ -18,11 +26,12 @@ export default function Tema1() {
           Essa visão desafiava profundamente o entendimento científico da época, e mesmo hoje em dia, continua a suscitar debates entre geólogos e historiadores que discutem a possibilidade de eventos cataclísmicos terem desempenhado um papel maior na evolução da Terra do que se pensava anteriormente.
         </p>
         <div className="mt-8">
-          <img
-            src="https://example.com/geologia-catastrofista.jpg" 
-            alt="Ilustração sobre as teorias geológicas de Velikovsky"
-            className="rounded-lg"
-          />
+        <Image
+        src={imagem1} 
+        alt="Ilustração de erro"
+        width={500} 
+        height={300}
+        />
         </div>
       </div>
     </Layout>

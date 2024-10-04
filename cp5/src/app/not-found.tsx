@@ -1,9 +1,15 @@
+import React from 'react';
+import Image from 'next/image';
 
 export default function NotFound() {
     return (
       <div>
-          <h1>404 : Not Found</h1>
-          <p>O recurso que você tentou acessar não está disponivel!</p>
+        <Image 
+        src="/imagens/error.jpg" 
+        alt="Ilustração de erro"
+        width={500} 
+        height={300}
+      />
       </div>
     )
   }

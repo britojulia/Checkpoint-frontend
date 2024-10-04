@@ -21,11 +21,7 @@ export default function tema3() {
           Logo após, com o afastamento do cometa, as águas teriam retornado, afogando o exército do faraó. Essa visão do Êxodo não só desafia a narrativa tradicional religiosa, como também oferece uma perspectiva cósmica sobre um dos eventos mais conhecidos da história bíblica.
         </p>
         <div className="mt-8">
-          <img
-            src="https://example.com/exodo-catastrofe.jpg" 
-            alt="Ilustração da abertura do Mar Vermelho com um cometa no céu"
-            className="rounded-lg"
-          />
+          
         </div>
       </div>
     </Layout>
